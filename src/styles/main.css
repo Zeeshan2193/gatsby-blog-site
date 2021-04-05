@@ -1,0 +1,98 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(216, 214, 214);
+}
+.container{
+    margin-top: 2px;
+    background-color:white;
+    max-width: 70%;
+    padding: 60px;
+}
+.header-container{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    max-height: 200px;
+    background-color: blueviolet;
+    background-image: url(../images/header-image.jpg);
+}
+.header-container>p{
+    font-size: xx-large;
+}
+.nav-links{
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+background-color: brown;
+}
+.nav-links > li >a{
+    
+    text-decoration:none;
+    color: white;
+}
+
+.nav-links > li{
+    list-style: none;
+}
+.nav-links > li :hover{
+    padding:15px 5px;
+    color:rgb(126, 37, 21);
+    background-color: white;
+}
+.home-post{
+    padding: 10px;
+}
+
+h2 > a{
+    text-decoration: none;
+}
+.post-image{
+   
+    max-width: 500px;
+    height: 200px;
+    padding: 10px 10px;
+    text-align: left;
+}
+.post-excerpt{
+    padding-top: 85px;
+    font-size: 20px;
+}
+.post-readmore-button{
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 2px red solid;
+    margin-left: 40%;
+}
+.post-readmore-button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.post-title{
+    padding: 15px 0px;
+}
+span > .post-meta{
+    padding: 50px 0px;
+}
+.footer-div{
+    margin-top: 2px;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    background-color: rgb(126, 37, 21);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+.posts > li {
+list-style: none;
+}
